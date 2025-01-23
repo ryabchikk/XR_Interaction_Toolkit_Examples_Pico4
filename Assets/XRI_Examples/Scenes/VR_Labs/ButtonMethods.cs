@@ -8,4 +8,8 @@ public class ButtonMethods : MonoBehaviour
     {
         Application.Quit();
     }
+    public void LoadScene(int numberScene)
+    {
+        SceneManager.LoadScene(numberScene);
+    }
 }
